@@ -63,7 +63,7 @@ def redrawWindow(win,game,p):
                 text1=font.render("Waiting",1,(0,0,0))
             
             if game.p2Went and p == 1:
-                text1=font.render(move2,1,(0,0,0))
+                text2=font.render(move2,1,(0,0,0))
             elif game.p2Went:
                 text2=font.render("Locked In",1,(0,0,0))
             else:
